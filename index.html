@@ -1,7 +1,130 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <link rel="stylesheet" type="text/css" href="an.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+
+    body {
+    background-color: #BFDBD2;
+    }
+
+    #margin {
+      border: 1px solid #FEDCD2;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+
+    #second {
+    border: 1px solid #E7DFDD;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    }
+
+    #outer {
+    border: 1px solid silver;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    }
+
+    .c{
+      float: left;
+      padding: 10px;
+    }
+    .first_column{
+      width:33%;
+    }
+    .second_column {
+      width:33%;
+    }
+    .third_column{
+      width:30%;
+      float:right;
+    }
+
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+
+    body {
+      margin: 0;
+    }
+    /* Style the header */
+    #header {
+      background-color: white;
+      padding: 70px;
+      text-align: center;
+    }
+
+    #layout {
+      padding: 40px;
+      text-align: center;
+    }
+
+</style>
+
+</head>
 <body>
-  <h1>Hello World</h1>
-  <p>I'm hosted with GitHub pages.</p>
-  </body>
-  </html>
+
+
+<div id = "margin">
+  <div id = "outer">
+    <div id = "second">
+      <center><h1 id="welcome">WELCOME!</h1></center>
+      <div id="circle-letters">
+        <ul>
+          <li>P</li>
+          <li>E</li>
+          <li>R</li>
+          <li>S</li>
+          <li>O</li>
+          <li>N</li>
+          <li>A</li>
+          <li>L</li>
+          <li>I</li>
+          <li>T</li>
+          <li>Y</li>
+        </ul>
+      </div>
+
+
+        <div id="header">
+          <h1>About Us</h1>
+        </div>
+
+        <div id="layout">
+
+        <div class="row">
+          <div class = "c first_column">
+          <img src="....png" height=310px width =300px>
+        </div>
+        <div class="c second_column">
+          <h2>Side</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+        </div>
+        <div class = "c third_column">
+          <a href="https://Final-Product--jgong.repl.co"><img src="ar.png"></a>
+        </div>
+        </div>
+      </div>
+      </div>
+  </div>
+
+
+
+
+</body>
+</html>
